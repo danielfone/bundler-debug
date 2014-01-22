@@ -1,0 +1,25 @@
+source "https://rubygems.org"
+gemspec
+
+# $ bundle --gemfile Gemfile.fail 
+# Fetching gem metadata from https://rubygems.org/..........
+# Fetching additional metadata from https://rubygems.org/..
+# Resolving dependencies...
+# Bundler could not find compatible versions for gem "rack":
+#   In Gemfile:
+#     bundler-example (>= 0) ruby depends on
+#       rack (~> 1.2.1) ruby
+# 
+#     bundler-example (>= 0) ruby depends on
+#       rack (1.5.2)
+# 
+# Bundler could not find compatible versions for gem "bundler":
+#   In Gemfile:
+#     bundler-example (>= 0) ruby depends on
+#       bundler (~> 1.0.0) ruby
+# 
+#   Current Bundler version:
+#     bundler (1.5.2)
+# 
+# This Gemfile requires a different version of Bundler.
+# Perhaps you need to update Bundler by running `gem install bundler`?

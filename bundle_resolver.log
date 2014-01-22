@@ -1,0 +1,6012 @@
+==== Iterating ====
+
+Activated:
+Requirements:
+  bundler-example (>= 0) ruby
+Attempting:
+  bundler-example (>= 0) ruby
+  Activating: bundler-example (1.0.0)
+    * bundler-example (>= 0)
+    Dependencies
+    * rails (~> 3.0)
+    * capybara (~> 2.2.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+Requirements:
+  capybara (~> 2.2.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  capybara (~> 2.2.0) ruby
+  Activating: capybara (2.2.1)
+    * bundler-example (>= 0)
+    * capybara (~> 2.2.0)
+    Dependencies
+    * nokogiri (>= 1.3.3)
+    * mime-types (>= 1.16)
+    * rack (>= 1.0.0)
+    * rack-test (>= 0.5.4)
+    * xpath (~> 2.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+Requirements:
+  xpath (~> 2.0) ruby
+  rack-test (>= 0.5.4) ruby
+  mime-types (>= 1.16) ruby
+  nokogiri (>= 1.3.3) ruby
+  rack (>= 1.0.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  xpath (~> 2.0) ruby
+  Activating: xpath (2.0.0)
+    * bundler-example (>= 0)
+    * capybara (~> 2.2.0)
+    * xpath (~> 2.0)
+    Dependencies
+    * nokogiri (~> 1.3)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+Requirements:
+  rack-test (>= 0.5.4) ruby
+  mime-types (>= 1.16) ruby
+  nokogiri (>= 1.3.3) ruby
+  nokogiri (~> 1.3) ruby
+  rack (>= 1.0.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  rack-test (>= 0.5.4) ruby
+  Activating: rack-test (0.6.2)
+    * bundler-example (>= 0)
+    * capybara (~> 2.2.0)
+    * rack-test (>= 0.5.4)
+    Dependencies
+    * rack (>= 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+Requirements:
+  mime-types (>= 1.16) ruby
+  nokogiri (>= 1.3.3) ruby
+  nokogiri (~> 1.3) ruby
+  rack (>= 1.0.0) ruby
+  rack (>= 1.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  mime-types (>= 1.16) ruby
+  Activating: mime-types (2.0)
+    * bundler-example (>= 0)
+    * capybara (~> 2.2.0)
+    * mime-types (>= 1.16)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+Requirements:
+  nokogiri (>= 1.3.3) ruby
+  nokogiri (~> 1.3) ruby
+  rack (>= 1.0) ruby
+  rack (>= 1.0.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  nokogiri (>= 1.3.3) ruby
+  Activating: nokogiri (1.6.1)
+    * bundler-example (>= 0)
+    * capybara (~> 2.2.0)
+    * nokogiri (>= 1.3.3)
+    Dependencies
+    * mini_portile (~> 0.5.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+Requirements:
+  nokogiri (~> 1.3) ruby
+  mini_portile (~> 0.5.0) ruby
+  rack (>= 1.0) ruby
+  rack (>= 1.0.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  nokogiri (~> 1.3) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+Requirements:
+  mini_portile (~> 0.5.0) ruby
+  rack (>= 1.0) ruby
+  rack (>= 1.0.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  mini_portile (~> 0.5.0) ruby
+  Activating: mini_portile (0.5.2)
+    * bundler-example (>= 0)
+    * capybara (~> 2.2.0)
+    * nokogiri (>= 1.3.3)
+    * mini_portile (~> 0.5.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+Requirements:
+  rack (>= 1.0) ruby
+  rack (>= 1.0.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  rack (>= 1.0) ruby
+  Activating: rack (1.5.2)
+    * bundler-example (>= 0)
+    * capybara (~> 2.2.0)
+    * rack-test (>= 0.5.4)
+    * rack (>= 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+Requirements:
+  rack (>= 1.0.0) ruby
+  rails (~> 3.0) ruby
+Attempting:
+  rack (>= 1.0.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+Requirements:
+  rails (~> 3.0) ruby
+Attempting:
+  rails (~> 3.0) ruby
+  Activating: rails (3.2.16)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.16)
+    * actionpack (= 3.2.16)
+    * activerecord (= 3.2.16)
+    * activeresource (= 3.2.16)
+    * actionmailer (= 3.2.16)
+    * railties (= 3.2.16)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.16)
+Requirements:
+  activesupport (= 3.2.16) ruby
+  actionpack (= 3.2.16) ruby
+  activerecord (= 3.2.16) ruby
+  activeresource (= 3.2.16) ruby
+  actionmailer (= 3.2.16) ruby
+  railties (= 3.2.16) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.16) ruby
+  Activating: activesupport (3.2.16)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.16)
+    Dependencies
+    * i18n (>= 0.6.4, ~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.16)
+  activesupport (3.2.16)
+Requirements:
+  actionpack (= 3.2.16) ruby
+  activerecord (= 3.2.16) ruby
+  activeresource (= 3.2.16) ruby
+  actionmailer (= 3.2.16) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.16) ruby
+  i18n (>= 0.6.4, ~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.16) ruby
+  Activating: actionpack (3.2.16)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.16)
+    Dependencies
+    * activesupport (= 3.2.16)
+    * activemodel (= 3.2.16)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.5)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.2.1)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.16)
+  activesupport (3.2.16)
+  actionpack (3.2.16)
+Requirements:
+  rack-test (~> 0.6.1) ruby
+  rack (~> 1.4.5) ruby
+  activesupport (= 3.2.16) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.16) ruby
+  bundler (~> 1.0) ruby
+  journey (~> 1.0.4) ruby
+  actionmailer (= 3.2.16) ruby
+  activeresource (= 3.2.16) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.16) ruby
+  activemodel (= 3.2.16) ruby
+  sprockets (~> 2.2.1) ruby
+  i18n (>= 0.6.4, ~> 0.6) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack-test (~> 0.6.1) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.16)
+  activesupport (3.2.16)
+  actionpack (3.2.16)
+Requirements:
+  rack (~> 1.4.5) ruby
+  activesupport (= 3.2.16) ruby
+  journey (~> 1.0.4) ruby
+  railties (= 3.2.16) ruby
+  bundler (~> 1.0) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.2.16) ruby
+  activemodel (= 3.2.16) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.16) ruby
+  activeresource (= 3.2.16) ruby
+  sprockets (~> 2.2.1) ruby
+  i18n (>= 0.6.4, ~> 0.6) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.16)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * bundler (~> 1.0)
+    * railties (= 3.2.15)
+    * actionmailer (= 3.2.15)
+    * activeresource (= 3.2.15)
+    * activerecord (= 3.2.15)
+    * actionpack (= 3.2.15)
+    * activesupport (= 3.2.15)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.15)
+Requirements:
+  bundler (~> 1.0) ruby
+  railties (= 3.2.15) ruby
+  actionmailer (= 3.2.15) ruby
+  activeresource (= 3.2.15) ruby
+  activerecord (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+Attempting:
+  bundler (~> 1.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.15)
+  bundler (1.5.2)
+Requirements:
+  railties (= 3.2.15) ruby
+  actionmailer (= 3.2.15) ruby
+  activeresource (= 3.2.15) ruby
+  activerecord (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+Attempting:
+  railties (= 3.2.15) ruby
+  Activating: railties (3.2.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * railties (= 3.2.15)
+    Dependencies
+    * actionpack (= 3.2.15)
+    * activesupport (= 3.2.15)
+    * rdoc (~> 3.4)
+    * thor (< 2.0, >= 0.14.6)
+    * rack-ssl (~> 1.3.2)
+    * rake (>= 0.8.7)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.15)
+  bundler (1.5.2)
+  railties (3.2.15)
+Requirements:
+  actionmailer (= 3.2.15) ruby
+  activeresource (= 3.2.15) ruby
+  activerecord (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  rack-ssl (~> 1.3.2) ruby
+  thor (< 2.0, >= 0.14.6) ruby
+  rake (>= 0.8.7) ruby
+  rdoc (~> 3.4) ruby
+Attempting:
+  actionmailer (= 3.2.15) ruby
+  Activating: actionmailer (3.2.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionmailer (= 3.2.15)
+    Dependencies
+    * mail (~> 2.5.4)
+    * actionpack (= 3.2.15)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.15)
+  bundler (1.5.2)
+  railties (3.2.15)
+  actionmailer (3.2.15)
+Requirements:
+  activeresource (= 3.2.15) ruby
+  activerecord (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  mail (~> 2.5.4) ruby
+  actionpack (= 3.2.15) ruby
+  rack-ssl (~> 1.3.2) ruby
+  thor (< 2.0, >= 0.14.6) ruby
+  rake (>= 0.8.7) ruby
+  rdoc (~> 3.4) ruby
+Attempting:
+  activeresource (= 3.2.15) ruby
+  Activating: activeresource (3.2.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activeresource (= 3.2.15)
+    Dependencies
+    * activemodel (= 3.2.15)
+    * activesupport (= 3.2.15)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.15)
+  bundler (1.5.2)
+  railties (3.2.15)
+  actionmailer (3.2.15)
+  activeresource (3.2.15)
+Requirements:
+  activerecord (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  mail (~> 2.5.4) ruby
+  activemodel (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  rack-ssl (~> 1.3.2) ruby
+  thor (< 2.0, >= 0.14.6) ruby
+  rake (>= 0.8.7) ruby
+  rdoc (~> 3.4) ruby
+Attempting:
+  activerecord (= 3.2.15) ruby
+  Activating: activerecord (3.2.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activerecord (= 3.2.15)
+    Dependencies
+    * tzinfo (~> 0.3.29)
+    * arel (~> 3.0.2)
+    * activemodel (= 3.2.15)
+    * activesupport (= 3.2.15)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.15)
+  bundler (1.5.2)
+  railties (3.2.15)
+  actionmailer (3.2.15)
+  activeresource (3.2.15)
+  activerecord (3.2.15)
+Requirements:
+  actionpack (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  mail (~> 2.5.4) ruby
+  activemodel (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  actionpack (= 3.2.15) ruby
+  activemodel (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  rack-ssl (~> 1.3.2) ruby
+  arel (~> 3.0.2) ruby
+  tzinfo (~> 0.3.29) ruby
+  thor (< 2.0, >= 0.14.6) ruby
+  rake (>= 0.8.7) ruby
+  rdoc (~> 3.4) ruby
+Attempting:
+  actionpack (= 3.2.15) ruby
+  Activating: actionpack (3.2.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.15)
+    Dependencies
+    * erubis (~> 2.7.0)
+    * sprockets (~> 2.2.1)
+    * journey (~> 1.0.4)
+    * rack-test (~> 0.6.1)
+    * rack (~> 1.4.5)
+    * builder (~> 3.0.0)
+    * rack-cache (~> 1.2)
+    * activemodel (= 3.2.15)
+    * activesupport (= 3.2.15)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.15)
+  bundler (1.5.2)
+  railties (3.2.15)
+  actionmailer (3.2.15)
+  activeresource (3.2.15)
+  activerecord (3.2.15)
+  actionpack (3.2.15)
+Requirements:
+  rack (~> 1.4.5) ruby
+  actionpack (= 3.2.15) ruby
+  rack-test (~> 0.6.1) ruby
+  actionpack (= 3.2.15) ruby
+  activemodel (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  mail (~> 2.5.4) ruby
+  activemodel (= 3.2.15) ruby
+  activesupport (= 3.2.15) ruby
+  activemodel (= 3.2.15) ruby
+  rack-cache (~> 1.2) ruby
+  activesupport (= 3.2.15) ruby
+  erubis (~> 2.7.0) ruby
+  activesupport (= 3.2.15) ruby
+  journey (~> 1.0.4) ruby
+  activesupport (= 3.2.15) ruby
+  sprockets (~> 2.2.1) ruby
+  rack-ssl (~> 1.3.2) ruby
+  arel (~> 3.0.2) ruby
+  builder (~> 3.0.0) ruby
+  tzinfo (~> 0.3.29) ruby
+  thor (< 2.0, >= 0.14.6) ruby
+  rake (>= 0.8.7) ruby
+  rdoc (~> 3.4) ruby
+Attempting:
+  rack (~> 1.4.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.15)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.14)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.14)
+    * actionpack (= 3.2.14)
+    * activerecord (= 3.2.14)
+    * activeresource (= 3.2.14)
+    * actionmailer (= 3.2.14)
+    * railties (= 3.2.14)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.14)
+Requirements:
+  activesupport (= 3.2.14) ruby
+  actionpack (= 3.2.14) ruby
+  activerecord (= 3.2.14) ruby
+  activeresource (= 3.2.14) ruby
+  actionmailer (= 3.2.14) ruby
+  railties (= 3.2.14) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.14) ruby
+  Activating: activesupport (3.2.14)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.14)
+    Dependencies
+    * i18n (>= 0.6.4, ~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.14)
+  activesupport (3.2.14)
+Requirements:
+  actionpack (= 3.2.14) ruby
+  activerecord (= 3.2.14) ruby
+  activeresource (= 3.2.14) ruby
+  actionmailer (= 3.2.14) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.14) ruby
+  i18n (>= 0.6.4, ~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.14) ruby
+  Activating: actionpack (3.2.14)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.14)
+    Dependencies
+    * activesupport (= 3.2.14)
+    * activemodel (= 3.2.14)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.5)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.2.1)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.14)
+  activesupport (3.2.14)
+  actionpack (3.2.14)
+Requirements:
+  rack (~> 1.4.5) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.14) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.14) ruby
+  bundler (~> 1.0) ruby
+  journey (~> 1.0.4) ruby
+  actionmailer (= 3.2.14) ruby
+  activeresource (= 3.2.14) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.14) ruby
+  activemodel (= 3.2.14) ruby
+  sprockets (~> 2.2.1) ruby
+  i18n (>= 0.6.4, ~> 0.6) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.14)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.13)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.13)
+    * actionpack (= 3.2.13)
+    * activerecord (= 3.2.13)
+    * activeresource (= 3.2.13)
+    * actionmailer (= 3.2.13)
+    * railties (= 3.2.13)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.13)
+Requirements:
+  activesupport (= 3.2.13) ruby
+  actionpack (= 3.2.13) ruby
+  activerecord (= 3.2.13) ruby
+  activeresource (= 3.2.13) ruby
+  actionmailer (= 3.2.13) ruby
+  railties (= 3.2.13) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.13) ruby
+  Activating: activesupport (3.2.13)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.13)
+    Dependencies
+    * i18n (= 0.6.1)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.13)
+  activesupport (3.2.13)
+Requirements:
+  actionpack (= 3.2.13) ruby
+  activerecord (= 3.2.13) ruby
+  activeresource (= 3.2.13) ruby
+  actionmailer (= 3.2.13) ruby
+  i18n (= 0.6.1) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.13) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.13) ruby
+  Activating: actionpack (3.2.13)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.13)
+    Dependencies
+    * activesupport (= 3.2.13)
+    * activemodel (= 3.2.13)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.5)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.2.1)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.13)
+  activesupport (3.2.13)
+  actionpack (3.2.13)
+Requirements:
+  rack (~> 1.4.5) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.13) ruby
+  erubis (~> 2.7.0) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.13) ruby
+  i18n (= 0.6.1) ruby
+  actionmailer (= 3.2.13) ruby
+  activeresource (= 3.2.13) ruby
+  rack-cache (~> 1.2) ruby
+  journey (~> 1.0.4) ruby
+  activerecord (= 3.2.13) ruby
+  activemodel (= 3.2.13) ruby
+  sprockets (~> 2.2.1) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.13)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.12)
+    * actionpack (= 3.2.12)
+    * activerecord (= 3.2.12)
+    * activeresource (= 3.2.12)
+    * actionmailer (= 3.2.12)
+    * railties (= 3.2.12)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.12)
+Requirements:
+  activesupport (= 3.2.12) ruby
+  actionpack (= 3.2.12) ruby
+  activerecord (= 3.2.12) ruby
+  activeresource (= 3.2.12) ruby
+  actionmailer (= 3.2.12) ruby
+  railties (= 3.2.12) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.12) ruby
+  Activating: activesupport (3.2.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.12)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.12)
+  activesupport (3.2.12)
+Requirements:
+  actionpack (= 3.2.12) ruby
+  activerecord (= 3.2.12) ruby
+  activeresource (= 3.2.12) ruby
+  actionmailer (= 3.2.12) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.12) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.12) ruby
+  Activating: actionpack (3.2.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.12)
+    Dependencies
+    * activesupport (= 3.2.12)
+    * activemodel (= 3.2.12)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.5)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.2.1)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.12)
+  activesupport (3.2.12)
+  actionpack (3.2.12)
+Requirements:
+  rack (~> 1.4.5) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.12) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.12) ruby
+  bundler (~> 1.0) ruby
+  journey (~> 1.0.4) ruby
+  actionmailer (= 3.2.12) ruby
+  activeresource (= 3.2.12) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.12) ruby
+  activemodel (= 3.2.12) ruby
+  sprockets (~> 2.2.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.12)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.11)
+    * actionpack (= 3.2.11)
+    * activerecord (= 3.2.11)
+    * activeresource (= 3.2.11)
+    * actionmailer (= 3.2.11)
+    * railties (= 3.2.11)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.11)
+Requirements:
+  activesupport (= 3.2.11) ruby
+  actionpack (= 3.2.11) ruby
+  activerecord (= 3.2.11) ruby
+  activeresource (= 3.2.11) ruby
+  actionmailer (= 3.2.11) ruby
+  railties (= 3.2.11) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.11) ruby
+  Activating: activesupport (3.2.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.11)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.11)
+  activesupport (3.2.11)
+Requirements:
+  actionpack (= 3.2.11) ruby
+  activerecord (= 3.2.11) ruby
+  activeresource (= 3.2.11) ruby
+  actionmailer (= 3.2.11) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.11) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.11) ruby
+  Activating: actionpack (3.2.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.11)
+    Dependencies
+    * activesupport (= 3.2.11)
+    * activemodel (= 3.2.11)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.2.1)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.11)
+  activesupport (3.2.11)
+  actionpack (3.2.11)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.11) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.11) ruby
+  bundler (~> 1.0) ruby
+  journey (~> 1.0.4) ruby
+  actionmailer (= 3.2.11) ruby
+  activeresource (= 3.2.11) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.11) ruby
+  activemodel (= 3.2.11) ruby
+  sprockets (~> 2.2.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.11)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.10)
+    * actionpack (= 3.2.10)
+    * activerecord (= 3.2.10)
+    * activeresource (= 3.2.10)
+    * actionmailer (= 3.2.10)
+    * railties (= 3.2.10)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.10)
+Requirements:
+  activesupport (= 3.2.10) ruby
+  actionpack (= 3.2.10) ruby
+  activerecord (= 3.2.10) ruby
+  activeresource (= 3.2.10) ruby
+  actionmailer (= 3.2.10) ruby
+  railties (= 3.2.10) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.10) ruby
+  Activating: activesupport (3.2.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.10)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.10)
+  activesupport (3.2.10)
+Requirements:
+  actionpack (= 3.2.10) ruby
+  activerecord (= 3.2.10) ruby
+  activeresource (= 3.2.10) ruby
+  actionmailer (= 3.2.10) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.10) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.10) ruby
+  Activating: actionpack (3.2.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.10)
+    Dependencies
+    * activesupport (= 3.2.10)
+    * activemodel (= 3.2.10)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.2.1)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.10)
+  activesupport (3.2.10)
+  actionpack (3.2.10)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.10) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.10) ruby
+  bundler (~> 1.0) ruby
+  journey (~> 1.0.4) ruby
+  actionmailer (= 3.2.10) ruby
+  activeresource (= 3.2.10) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.10) ruby
+  activemodel (= 3.2.10) ruby
+  sprockets (~> 2.2.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.10)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.9)
+    * actionpack (= 3.2.9)
+    * activerecord (= 3.2.9)
+    * activeresource (= 3.2.9)
+    * actionmailer (= 3.2.9)
+    * railties (= 3.2.9)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.9)
+Requirements:
+  activesupport (= 3.2.9) ruby
+  actionpack (= 3.2.9) ruby
+  activerecord (= 3.2.9) ruby
+  activeresource (= 3.2.9) ruby
+  actionmailer (= 3.2.9) ruby
+  railties (= 3.2.9) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.9) ruby
+  Activating: activesupport (3.2.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.9)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.9)
+  activesupport (3.2.9)
+Requirements:
+  actionpack (= 3.2.9) ruby
+  activerecord (= 3.2.9) ruby
+  activeresource (= 3.2.9) ruby
+  actionmailer (= 3.2.9) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.9) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.9) ruby
+  Activating: actionpack (3.2.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.9)
+    Dependencies
+    * activesupport (= 3.2.9)
+    * activemodel (= 3.2.9)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.2.1)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.9)
+  activesupport (3.2.9)
+  actionpack (3.2.9)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.9) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.9) ruby
+  bundler (~> 1.0) ruby
+  journey (~> 1.0.4) ruby
+  actionmailer (= 3.2.9) ruby
+  activeresource (= 3.2.9) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.9) ruby
+  activemodel (= 3.2.9) ruby
+  sprockets (~> 2.2.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.9)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.8)
+    * actionpack (= 3.2.8)
+    * activerecord (= 3.2.8)
+    * activeresource (= 3.2.8)
+    * actionmailer (= 3.2.8)
+    * railties (= 3.2.8)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.8)
+Requirements:
+  activesupport (= 3.2.8) ruby
+  actionpack (= 3.2.8) ruby
+  activerecord (= 3.2.8) ruby
+  activeresource (= 3.2.8) ruby
+  actionmailer (= 3.2.8) ruby
+  railties (= 3.2.8) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.8) ruby
+  Activating: activesupport (3.2.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.8)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.8)
+  activesupport (3.2.8)
+Requirements:
+  actionpack (= 3.2.8) ruby
+  activerecord (= 3.2.8) ruby
+  activeresource (= 3.2.8) ruby
+  actionmailer (= 3.2.8) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.8) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.8) ruby
+  Activating: actionpack (3.2.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.8)
+    Dependencies
+    * activesupport (= 3.2.8)
+    * activemodel (= 3.2.8)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.1.3)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.8)
+  activesupport (3.2.8)
+  actionpack (3.2.8)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.8) ruby
+  sprockets (~> 2.1.3) ruby
+  railties (= 3.2.8) ruby
+  erubis (~> 2.7.0) ruby
+  bundler (~> 1.0) ruby
+  actionmailer (= 3.2.8) ruby
+  activeresource (= 3.2.8) ruby
+  rack-cache (~> 1.2) ruby
+  journey (~> 1.0.4) ruby
+  activerecord (= 3.2.8) ruby
+  activemodel (= 3.2.8) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.8)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.7)
+    * actionpack (= 3.2.7)
+    * activerecord (= 3.2.7)
+    * activeresource (= 3.2.7)
+    * actionmailer (= 3.2.7)
+    * railties (= 3.2.7)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.7)
+Requirements:
+  activesupport (= 3.2.7) ruby
+  actionpack (= 3.2.7) ruby
+  activerecord (= 3.2.7) ruby
+  activeresource (= 3.2.7) ruby
+  actionmailer (= 3.2.7) ruby
+  railties (= 3.2.7) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.7) ruby
+  Activating: activesupport (3.2.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.7)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.7)
+  activesupport (3.2.7)
+Requirements:
+  actionpack (= 3.2.7) ruby
+  activerecord (= 3.2.7) ruby
+  activeresource (= 3.2.7) ruby
+  actionmailer (= 3.2.7) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.7) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.7) ruby
+  Activating: actionpack (3.2.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.7)
+    Dependencies
+    * activesupport (= 3.2.7)
+    * activemodel (= 3.2.7)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.4)
+    * sprockets (~> 2.1.3)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.7)
+  activesupport (3.2.7)
+  actionpack (3.2.7)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.7) ruby
+  sprockets (~> 2.1.3) ruby
+  railties (= 3.2.7) ruby
+  erubis (~> 2.7.0) ruby
+  bundler (~> 1.0) ruby
+  actionmailer (= 3.2.7) ruby
+  activeresource (= 3.2.7) ruby
+  rack-cache (~> 1.2) ruby
+  journey (~> 1.0.4) ruby
+  activerecord (= 3.2.7) ruby
+  activemodel (= 3.2.7) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.7)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.6)
+    * actionpack (= 3.2.6)
+    * activerecord (= 3.2.6)
+    * activeresource (= 3.2.6)
+    * actionmailer (= 3.2.6)
+    * railties (= 3.2.6)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.6)
+Requirements:
+  activesupport (= 3.2.6) ruby
+  actionpack (= 3.2.6) ruby
+  activerecord (= 3.2.6) ruby
+  activeresource (= 3.2.6) ruby
+  actionmailer (= 3.2.6) ruby
+  railties (= 3.2.6) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.6) ruby
+  Activating: activesupport (3.2.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.6)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.6)
+  activesupport (3.2.6)
+Requirements:
+  actionpack (= 3.2.6) ruby
+  activerecord (= 3.2.6) ruby
+  activeresource (= 3.2.6) ruby
+  actionmailer (= 3.2.6) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.6) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.6) ruby
+  Activating: actionpack (3.2.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.6)
+    Dependencies
+    * activesupport (= 3.2.6)
+    * activemodel (= 3.2.6)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.1)
+    * sprockets (~> 2.1.3)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.6)
+  activesupport (3.2.6)
+  actionpack (3.2.6)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.6) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.6) ruby
+  bundler (~> 1.0) ruby
+  sprockets (~> 2.1.3) ruby
+  actionmailer (= 3.2.6) ruby
+  activeresource (= 3.2.6) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.6) ruby
+  activemodel (= 3.2.6) ruby
+  journey (~> 1.0.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.6)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.5)
+    * actionpack (= 3.2.5)
+    * activerecord (= 3.2.5)
+    * activeresource (= 3.2.5)
+    * actionmailer (= 3.2.5)
+    * railties (= 3.2.5)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.5)
+Requirements:
+  activesupport (= 3.2.5) ruby
+  actionpack (= 3.2.5) ruby
+  activerecord (= 3.2.5) ruby
+  activeresource (= 3.2.5) ruby
+  actionmailer (= 3.2.5) ruby
+  railties (= 3.2.5) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.5) ruby
+  Activating: activesupport (3.2.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.5)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.5)
+  activesupport (3.2.5)
+Requirements:
+  actionpack (= 3.2.5) ruby
+  activerecord (= 3.2.5) ruby
+  activeresource (= 3.2.5) ruby
+  actionmailer (= 3.2.5) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.5) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.5) ruby
+  Activating: actionpack (3.2.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.5)
+    Dependencies
+    * activesupport (= 3.2.5)
+    * activemodel (= 3.2.5)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.1)
+    * sprockets (~> 2.1.3)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.5)
+  activesupport (3.2.5)
+  actionpack (3.2.5)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.5) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.5) ruby
+  bundler (~> 1.0) ruby
+  sprockets (~> 2.1.3) ruby
+  actionmailer (= 3.2.5) ruby
+  activeresource (= 3.2.5) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.5) ruby
+  activemodel (= 3.2.5) ruby
+  journey (~> 1.0.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.5)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.4)
+    * actionpack (= 3.2.4)
+    * activerecord (= 3.2.4)
+    * activeresource (= 3.2.4)
+    * actionmailer (= 3.2.4)
+    * railties (= 3.2.4)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.4)
+Requirements:
+  activesupport (= 3.2.4) ruby
+  actionpack (= 3.2.4) ruby
+  activerecord (= 3.2.4) ruby
+  activeresource (= 3.2.4) ruby
+  actionmailer (= 3.2.4) ruby
+  railties (= 3.2.4) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.4) ruby
+  Activating: activesupport (3.2.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.4)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.4)
+  activesupport (3.2.4)
+Requirements:
+  actionpack (= 3.2.4) ruby
+  activerecord (= 3.2.4) ruby
+  activeresource (= 3.2.4) ruby
+  actionmailer (= 3.2.4) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.4) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.4) ruby
+  Activating: actionpack (3.2.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.4)
+    Dependencies
+    * activesupport (= 3.2.4)
+    * activemodel (= 3.2.4)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.1)
+    * sprockets (~> 2.1.3)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.4)
+  activesupport (3.2.4)
+  actionpack (3.2.4)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.4) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.4) ruby
+  bundler (~> 1.0) ruby
+  sprockets (~> 2.1.3) ruby
+  actionmailer (= 3.2.4) ruby
+  activeresource (= 3.2.4) ruby
+  rack-cache (~> 1.2) ruby
+  activerecord (= 3.2.4) ruby
+  activemodel (= 3.2.4) ruby
+  journey (~> 1.0.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.4)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.3)
+    * actionpack (= 3.2.3)
+    * activerecord (= 3.2.3)
+    * activeresource (= 3.2.3)
+    * actionmailer (= 3.2.3)
+    * railties (= 3.2.3)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.3)
+Requirements:
+  activesupport (= 3.2.3) ruby
+  actionpack (= 3.2.3) ruby
+  activerecord (= 3.2.3) ruby
+  activeresource (= 3.2.3) ruby
+  actionmailer (= 3.2.3) ruby
+  railties (= 3.2.3) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.3) ruby
+  Activating: activesupport (3.2.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.3)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.3)
+  activesupport (3.2.3)
+Requirements:
+  actionpack (= 3.2.3) ruby
+  activerecord (= 3.2.3) ruby
+  activeresource (= 3.2.3) ruby
+  actionmailer (= 3.2.3) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.3) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.3) ruby
+  Activating: actionpack (3.2.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.3)
+    Dependencies
+    * activesupport (= 3.2.3)
+    * activemodel (= 3.2.3)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.1)
+    * sprockets (~> 2.1.2)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.3)
+  activesupport (3.2.3)
+  actionpack (3.2.3)
+Requirements:
+  rack (~> 1.4.0) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.2.3) ruby
+  erubis (~> 2.7.0) ruby
+  railties (= 3.2.3) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.2.3) ruby
+  actionmailer (= 3.2.3) ruby
+  activeresource (= 3.2.3) ruby
+  rack-cache (~> 1.2) ruby
+  activemodel (= 3.2.3) ruby
+  sprockets (~> 2.1.2) ruby
+  journey (~> 1.0.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.3)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.2)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.2)
+    * actionpack (= 3.2.2)
+    * activerecord (= 3.2.2)
+    * activeresource (= 3.2.2)
+    * actionmailer (= 3.2.2)
+    * railties (= 3.2.2)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.2)
+Requirements:
+  activesupport (= 3.2.2) ruby
+  actionpack (= 3.2.2) ruby
+  activerecord (= 3.2.2) ruby
+  activeresource (= 3.2.2) ruby
+  actionmailer (= 3.2.2) ruby
+  railties (= 3.2.2) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.2) ruby
+  Activating: activesupport (3.2.2)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.2)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.2)
+  activesupport (3.2.2)
+Requirements:
+  actionpack (= 3.2.2) ruby
+  activerecord (= 3.2.2) ruby
+  activeresource (= 3.2.2) ruby
+  actionmailer (= 3.2.2) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.2) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.2) ruby
+  Activating: actionpack (3.2.2)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.2)
+    Dependencies
+    * activesupport (= 3.2.2)
+    * activemodel (= 3.2.2)
+    * rack-cache (~> 1.1)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.1)
+    * sprockets (~> 2.1.2)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.2)
+  activesupport (3.2.2)
+  actionpack (3.2.2)
+Requirements:
+  rack (~> 1.4.0) ruby
+  activesupport (= 3.2.2) ruby
+  rack-test (~> 0.6.1) ruby
+  railties (= 3.2.2) ruby
+  bundler (~> 1.0) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.2.2) ruby
+  activeresource (= 3.2.2) ruby
+  activerecord (= 3.2.2) ruby
+  activemodel (= 3.2.2) ruby
+  sprockets (~> 2.1.2) ruby
+  rack-cache (~> 1.1) ruby
+  journey (~> 1.0.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.2)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.1)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.1)
+    * actionpack (= 3.2.1)
+    * activerecord (= 3.2.1)
+    * activeresource (= 3.2.1)
+    * actionmailer (= 3.2.1)
+    * railties (= 3.2.1)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.1)
+Requirements:
+  activesupport (= 3.2.1) ruby
+  actionpack (= 3.2.1) ruby
+  activerecord (= 3.2.1) ruby
+  activeresource (= 3.2.1) ruby
+  actionmailer (= 3.2.1) ruby
+  railties (= 3.2.1) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.1) ruby
+  Activating: activesupport (3.2.1)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.1)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.1)
+  activesupport (3.2.1)
+Requirements:
+  actionpack (= 3.2.1) ruby
+  activerecord (= 3.2.1) ruby
+  activeresource (= 3.2.1) ruby
+  actionmailer (= 3.2.1) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.1) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.1) ruby
+  Activating: actionpack (3.2.1)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.1)
+    Dependencies
+    * activesupport (= 3.2.1)
+    * activemodel (= 3.2.1)
+    * rack-cache (~> 1.1)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.1)
+    * sprockets (~> 2.1.2)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.1)
+  activesupport (3.2.1)
+  actionpack (3.2.1)
+Requirements:
+  rack (~> 1.4.0) ruby
+  activesupport (= 3.2.1) ruby
+  rack-test (~> 0.6.1) ruby
+  railties (= 3.2.1) ruby
+  bundler (~> 1.0) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.2.1) ruby
+  activeresource (= 3.2.1) ruby
+  activerecord (= 3.2.1) ruby
+  activemodel (= 3.2.1) ruby
+  sprockets (~> 2.1.2) ruby
+  rack-cache (~> 1.1) ruby
+  journey (~> 1.0.1) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.1)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.2.0)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.2.0)
+    * actionpack (= 3.2.0)
+    * activerecord (= 3.2.0)
+    * activeresource (= 3.2.0)
+    * actionmailer (= 3.2.0)
+    * railties (= 3.2.0)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.0)
+Requirements:
+  activesupport (= 3.2.0) ruby
+  actionpack (= 3.2.0) ruby
+  activerecord (= 3.2.0) ruby
+  activeresource (= 3.2.0) ruby
+  actionmailer (= 3.2.0) ruby
+  railties (= 3.2.0) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.2.0) ruby
+  Activating: activesupport (3.2.0)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.2.0)
+    Dependencies
+    * i18n (~> 0.6)
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.0)
+  activesupport (3.2.0)
+Requirements:
+  actionpack (= 3.2.0) ruby
+  activerecord (= 3.2.0) ruby
+  activeresource (= 3.2.0) ruby
+  actionmailer (= 3.2.0) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.2.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.2.0) ruby
+  Activating: actionpack (3.2.0)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.2.0)
+    Dependencies
+    * activesupport (= 3.2.0)
+    * activemodel (= 3.2.0)
+    * rack-cache (~> 1.1)
+    * builder (~> 3.0.0)
+    * rack (~> 1.4.0)
+    * rack-test (~> 0.6.1)
+    * journey (~> 1.0.0)
+    * sprockets (~> 2.1.2)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.2.0)
+  activesupport (3.2.0)
+  actionpack (3.2.0)
+Requirements:
+  rack (~> 1.4.0) ruby
+  activesupport (= 3.2.0) ruby
+  rack-test (~> 0.6.1) ruby
+  railties (= 3.2.0) ruby
+  bundler (~> 1.0) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.2.0) ruby
+  activeresource (= 3.2.0) ruby
+  activerecord (= 3.2.0) ruby
+  activemodel (= 3.2.0) ruby
+  sprockets (~> 2.1.2) ruby
+  rack-cache (~> 1.1) ruby
+  builder (~> 3.0.0) ruby
+  journey (~> 1.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.4.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.2.0)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.12)
+    * actionpack (= 3.1.12)
+    * activerecord (= 3.1.12)
+    * activeresource (= 3.1.12)
+    * actionmailer (= 3.1.12)
+    * railties (= 3.1.12)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.12)
+Requirements:
+  activesupport (= 3.1.12) ruby
+  actionpack (= 3.1.12) ruby
+  activerecord (= 3.1.12) ruby
+  activeresource (= 3.1.12) ruby
+  actionmailer (= 3.1.12) ruby
+  railties (= 3.1.12) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.12) ruby
+  Activating: activesupport (3.1.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.12)
+    Dependencies
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.12)
+  activesupport (3.1.12)
+Requirements:
+  actionpack (= 3.1.12) ruby
+  activerecord (= 3.1.12) ruby
+  activeresource (= 3.1.12) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.12) ruby
+  actionmailer (= 3.1.12) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.1.12) ruby
+  Activating: actionpack (3.1.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.12)
+    Dependencies
+    * activesupport (= 3.1.12)
+    * activemodel (= 3.1.12)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.12)
+  activesupport (3.1.12)
+  actionpack (3.1.12)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.12) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.12) ruby
+  railties (= 3.1.12) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.12) ruby
+  activeresource (= 3.1.12) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.12) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.12)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.11)
+    * actionpack (= 3.1.11)
+    * activerecord (= 3.1.11)
+    * activeresource (= 3.1.11)
+    * actionmailer (= 3.1.11)
+    * railties (= 3.1.11)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.11)
+Requirements:
+  activesupport (= 3.1.11) ruby
+  actionpack (= 3.1.11) ruby
+  activerecord (= 3.1.11) ruby
+  activeresource (= 3.1.11) ruby
+  actionmailer (= 3.1.11) ruby
+  railties (= 3.1.11) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.11) ruby
+  Activating: activesupport (3.1.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.11)
+    Dependencies
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.11)
+  activesupport (3.1.11)
+Requirements:
+  actionpack (= 3.1.11) ruby
+  activerecord (= 3.1.11) ruby
+  activeresource (= 3.1.11) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.11) ruby
+  actionmailer (= 3.1.11) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.1.11) ruby
+  Activating: actionpack (3.1.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.11)
+    Dependencies
+    * activesupport (= 3.1.11)
+    * activemodel (= 3.1.11)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.11)
+  activesupport (3.1.11)
+  actionpack (3.1.11)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.11) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.11) ruby
+  railties (= 3.1.11) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.11) ruby
+  activeresource (= 3.1.11) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.11) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.11)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.10)
+    * actionpack (= 3.1.10)
+    * activerecord (= 3.1.10)
+    * activeresource (= 3.1.10)
+    * actionmailer (= 3.1.10)
+    * railties (= 3.1.10)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.10)
+Requirements:
+  activesupport (= 3.1.10) ruby
+  actionpack (= 3.1.10) ruby
+  activerecord (= 3.1.10) ruby
+  activeresource (= 3.1.10) ruby
+  actionmailer (= 3.1.10) ruby
+  railties (= 3.1.10) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.10) ruby
+  Activating: activesupport (3.1.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.10)
+    Dependencies
+    * multi_json (< 1.3, >= 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.10)
+  activesupport (3.1.10)
+Requirements:
+  actionpack (= 3.1.10) ruby
+  activerecord (= 3.1.10) ruby
+  activeresource (= 3.1.10) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.10) ruby
+  actionmailer (= 3.1.10) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+Attempting:
+  actionpack (= 3.1.10) ruby
+  Activating: actionpack (3.1.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.10)
+    Dependencies
+    * activesupport (= 3.1.10)
+    * activemodel (= 3.1.10)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.10)
+  activesupport (3.1.10)
+  actionpack (3.1.10)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.10) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.10) ruby
+  railties (= 3.1.10) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.10) ruby
+  activeresource (= 3.1.10) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.10) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+  i18n (~> 0.6) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.10)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.9)
+    * actionpack (= 3.1.9)
+    * activerecord (= 3.1.9)
+    * activeresource (= 3.1.9)
+    * actionmailer (= 3.1.9)
+    * railties (= 3.1.9)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.9)
+Requirements:
+  activesupport (= 3.1.9) ruby
+  actionpack (= 3.1.9) ruby
+  activerecord (= 3.1.9) ruby
+  activeresource (= 3.1.9) ruby
+  actionmailer (= 3.1.9) ruby
+  railties (= 3.1.9) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.9) ruby
+  Activating: activesupport (3.1.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.9)
+    Dependencies
+    * multi_json (< 1.3, >= 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.9)
+  activesupport (3.1.9)
+Requirements:
+  actionpack (= 3.1.9) ruby
+  activerecord (= 3.1.9) ruby
+  activeresource (= 3.1.9) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.9) ruby
+  actionmailer (= 3.1.9) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+Attempting:
+  actionpack (= 3.1.9) ruby
+  Activating: actionpack (3.1.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.9)
+    Dependencies
+    * activesupport (= 3.1.9)
+    * activemodel (= 3.1.9)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.9)
+  activesupport (3.1.9)
+  actionpack (3.1.9)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.9) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.9) ruby
+  railties (= 3.1.9) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.9) ruby
+  activeresource (= 3.1.9) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.9) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+  i18n (~> 0.6) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.9)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.8)
+    * actionpack (= 3.1.8)
+    * activerecord (= 3.1.8)
+    * activeresource (= 3.1.8)
+    * actionmailer (= 3.1.8)
+    * railties (= 3.1.8)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.8)
+Requirements:
+  activesupport (= 3.1.8) ruby
+  actionpack (= 3.1.8) ruby
+  activerecord (= 3.1.8) ruby
+  activeresource (= 3.1.8) ruby
+  actionmailer (= 3.1.8) ruby
+  railties (= 3.1.8) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.8) ruby
+  Activating: activesupport (3.1.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.8)
+    Dependencies
+    * multi_json (< 1.3, >= 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.8)
+  activesupport (3.1.8)
+Requirements:
+  actionpack (= 3.1.8) ruby
+  activerecord (= 3.1.8) ruby
+  activeresource (= 3.1.8) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.8) ruby
+  actionmailer (= 3.1.8) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+Attempting:
+  actionpack (= 3.1.8) ruby
+  Activating: actionpack (3.1.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.8)
+    Dependencies
+    * activesupport (= 3.1.8)
+    * activemodel (= 3.1.8)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.8)
+  activesupport (3.1.8)
+  actionpack (3.1.8)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.8) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.8) ruby
+  railties (= 3.1.8) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.8) ruby
+  activeresource (= 3.1.8) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.8) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+  i18n (~> 0.6) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.8)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.7)
+    * actionpack (= 3.1.7)
+    * activerecord (= 3.1.7)
+    * activeresource (= 3.1.7)
+    * actionmailer (= 3.1.7)
+    * railties (= 3.1.7)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.7)
+Requirements:
+  activesupport (= 3.1.7) ruby
+  actionpack (= 3.1.7) ruby
+  activerecord (= 3.1.7) ruby
+  activeresource (= 3.1.7) ruby
+  actionmailer (= 3.1.7) ruby
+  railties (= 3.1.7) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.7) ruby
+  Activating: activesupport (3.1.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.7)
+    Dependencies
+    * multi_json (< 1.3, >= 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.7)
+  activesupport (3.1.7)
+Requirements:
+  actionpack (= 3.1.7) ruby
+  activerecord (= 3.1.7) ruby
+  activeresource (= 3.1.7) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.7) ruby
+  actionmailer (= 3.1.7) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+Attempting:
+  actionpack (= 3.1.7) ruby
+  Activating: actionpack (3.1.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.7)
+    Dependencies
+    * activesupport (= 3.1.7)
+    * activemodel (= 3.1.7)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.7)
+  activesupport (3.1.7)
+  actionpack (3.1.7)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.7) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.7) ruby
+  railties (= 3.1.7) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.7) ruby
+  activeresource (= 3.1.7) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.7) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+  i18n (~> 0.6) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.7)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.6)
+    * actionpack (= 3.1.6)
+    * activerecord (= 3.1.6)
+    * activeresource (= 3.1.6)
+    * actionmailer (= 3.1.6)
+    * railties (= 3.1.6)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.6)
+Requirements:
+  activesupport (= 3.1.6) ruby
+  actionpack (= 3.1.6) ruby
+  activerecord (= 3.1.6) ruby
+  activeresource (= 3.1.6) ruby
+  actionmailer (= 3.1.6) ruby
+  railties (= 3.1.6) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.6) ruby
+  Activating: activesupport (3.1.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.6)
+    Dependencies
+    * multi_json (< 1.3, >= 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.6)
+  activesupport (3.1.6)
+Requirements:
+  actionpack (= 3.1.6) ruby
+  activerecord (= 3.1.6) ruby
+  activeresource (= 3.1.6) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.6) ruby
+  actionmailer (= 3.1.6) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+Attempting:
+  actionpack (= 3.1.6) ruby
+  Activating: actionpack (3.1.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.6)
+    Dependencies
+    * activesupport (= 3.1.6)
+    * activemodel (= 3.1.6)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.6)
+  activesupport (3.1.6)
+  actionpack (3.1.6)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.6) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.6) ruby
+  railties (= 3.1.6) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.6) ruby
+  activeresource (= 3.1.6) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.6) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+  i18n (~> 0.6) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.6)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.5)
+    * actionpack (= 3.1.5)
+    * activerecord (= 3.1.5)
+    * activeresource (= 3.1.5)
+    * actionmailer (= 3.1.5)
+    * railties (= 3.1.5)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.5)
+Requirements:
+  activesupport (= 3.1.5) ruby
+  actionpack (= 3.1.5) ruby
+  activerecord (= 3.1.5) ruby
+  activeresource (= 3.1.5) ruby
+  actionmailer (= 3.1.5) ruby
+  railties (= 3.1.5) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.5) ruby
+  Activating: activesupport (3.1.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.5)
+    Dependencies
+    * multi_json (< 1.3, >= 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.5)
+  activesupport (3.1.5)
+Requirements:
+  actionpack (= 3.1.5) ruby
+  activerecord (= 3.1.5) ruby
+  activeresource (= 3.1.5) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.5) ruby
+  actionmailer (= 3.1.5) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+Attempting:
+  actionpack (= 3.1.5) ruby
+  Activating: actionpack (3.1.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.5)
+    Dependencies
+    * activesupport (= 3.1.5)
+    * activemodel (= 3.1.5)
+    * rack-cache (~> 1.2)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.4)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.5)
+  activesupport (3.1.5)
+  actionpack (3.1.5)
+Requirements:
+  rack (~> 1.3.6) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.5) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.5) ruby
+  railties (= 3.1.5) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.5) ruby
+  activeresource (= 3.1.5) ruby
+  sprockets (~> 2.0.4) ruby
+  activerecord (= 3.1.5) ruby
+  rack-cache (~> 1.2) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  multi_json (< 1.3, >= 1.0) ruby
+  i18n (~> 0.6) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.5)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.4)
+    * actionpack (= 3.1.4)
+    * activerecord (= 3.1.4)
+    * activeresource (= 3.1.4)
+    * actionmailer (= 3.1.4)
+    * railties (= 3.1.4)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.4)
+Requirements:
+  activesupport (= 3.1.4) ruby
+  actionpack (= 3.1.4) ruby
+  activerecord (= 3.1.4) ruby
+  activeresource (= 3.1.4) ruby
+  actionmailer (= 3.1.4) ruby
+  railties (= 3.1.4) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.4) ruby
+  Activating: activesupport (3.1.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.4)
+    Dependencies
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.4)
+  activesupport (3.1.4)
+Requirements:
+  actionpack (= 3.1.4) ruby
+  activerecord (= 3.1.4) ruby
+  activeresource (= 3.1.4) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.4) ruby
+  actionmailer (= 3.1.4) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.1.4) ruby
+  Activating: actionpack (3.1.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.4)
+    Dependencies
+    * activesupport (= 3.1.4)
+    * activemodel (= 3.1.4)
+    * rack-cache (~> 1.1)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.6)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.3)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.4)
+  activesupport (3.1.4)
+  actionpack (3.1.4)
+Requirements:
+  rack (~> 1.3.6) ruby
+  activesupport (= 3.1.4) ruby
+  rack-test (~> 0.6.1) ruby
+  actionmailer (= 3.1.4) ruby
+  railties (= 3.1.4) ruby
+  bundler (~> 1.0) ruby
+  activeresource (= 3.1.4) ruby
+  activemodel (= 3.1.4) ruby
+  activerecord (= 3.1.4) ruby
+  erubis (~> 2.7.0) ruby
+  rack-cache (~> 1.1) ruby
+  sprockets (~> 2.0.3) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.3.6) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.4)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.3)
+    * actionpack (= 3.1.3)
+    * activerecord (= 3.1.3)
+    * activeresource (= 3.1.3)
+    * actionmailer (= 3.1.3)
+    * railties (= 3.1.3)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.3)
+Requirements:
+  activesupport (= 3.1.3) ruby
+  actionpack (= 3.1.3) ruby
+  activerecord (= 3.1.3) ruby
+  activeresource (= 3.1.3) ruby
+  actionmailer (= 3.1.3) ruby
+  railties (= 3.1.3) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.3) ruby
+  Activating: activesupport (3.1.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.3)
+    Dependencies
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.3)
+  activesupport (3.1.3)
+Requirements:
+  actionpack (= 3.1.3) ruby
+  activerecord (= 3.1.3) ruby
+  activeresource (= 3.1.3) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.3) ruby
+  actionmailer (= 3.1.3) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.1.3) ruby
+  Activating: actionpack (3.1.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.3)
+    Dependencies
+    * activesupport (= 3.1.3)
+    * activemodel (= 3.1.3)
+    * rack-cache (~> 1.1)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.5)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.3)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.3)
+  activesupport (3.1.3)
+  actionpack (3.1.3)
+Requirements:
+  rack (~> 1.3.5) ruby
+  activesupport (= 3.1.3) ruby
+  rack-test (~> 0.6.1) ruby
+  actionmailer (= 3.1.3) ruby
+  railties (= 3.1.3) ruby
+  bundler (~> 1.0) ruby
+  activeresource (= 3.1.3) ruby
+  activemodel (= 3.1.3) ruby
+  activerecord (= 3.1.3) ruby
+  erubis (~> 2.7.0) ruby
+  rack-cache (~> 1.1) ruby
+  sprockets (~> 2.0.3) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.3.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.3)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.2)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.2)
+    * actionpack (= 3.1.2)
+    * activerecord (= 3.1.2)
+    * activeresource (= 3.1.2)
+    * actionmailer (= 3.1.2)
+    * railties (= 3.1.2)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.2)
+Requirements:
+  activesupport (= 3.1.2) ruby
+  actionpack (= 3.1.2) ruby
+  activerecord (= 3.1.2) ruby
+  activeresource (= 3.1.2) ruby
+  actionmailer (= 3.1.2) ruby
+  railties (= 3.1.2) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.2) ruby
+  Activating: activesupport (3.1.2)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.2)
+    Dependencies
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.2)
+  activesupport (3.1.2)
+Requirements:
+  actionpack (= 3.1.2) ruby
+  activerecord (= 3.1.2) ruby
+  activeresource (= 3.1.2) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.2) ruby
+  actionmailer (= 3.1.2) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.1.2) ruby
+  Activating: actionpack (3.1.2)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.2)
+    Dependencies
+    * activesupport (= 3.1.2)
+    * activemodel (= 3.1.2)
+    * rack-cache (~> 1.1)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.5)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.1.0)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.2)
+  activesupport (3.1.2)
+  actionpack (3.1.2)
+Requirements:
+  rack (~> 1.3.5) ruby
+  activesupport (= 3.1.2) ruby
+  rack-test (~> 0.6.1) ruby
+  actionmailer (= 3.1.2) ruby
+  railties (= 3.1.2) ruby
+  bundler (~> 1.0) ruby
+  activeresource (= 3.1.2) ruby
+  activemodel (= 3.1.2) ruby
+  activerecord (= 3.1.2) ruby
+  erubis (~> 2.7.0) ruby
+  rack-cache (~> 1.1) ruby
+  rack-mount (~> 0.8.2) ruby
+  sprockets (~> 2.1.0) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.3.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.2)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.1)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.1)
+    * actionpack (= 3.1.1)
+    * activerecord (= 3.1.1)
+    * activeresource (= 3.1.1)
+    * actionmailer (= 3.1.1)
+    * railties (= 3.1.1)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.1)
+Requirements:
+  activesupport (= 3.1.1) ruby
+  actionpack (= 3.1.1) ruby
+  activerecord (= 3.1.1) ruby
+  activeresource (= 3.1.1) ruby
+  actionmailer (= 3.1.1) ruby
+  railties (= 3.1.1) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.1) ruby
+  Activating: activesupport (3.1.1)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.1)
+    Dependencies
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.1)
+  activesupport (3.1.1)
+Requirements:
+  actionpack (= 3.1.1) ruby
+  activerecord (= 3.1.1) ruby
+  activeresource (= 3.1.1) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.1) ruby
+  actionmailer (= 3.1.1) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.1.1) ruby
+  Activating: actionpack (3.1.1)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.1)
+    Dependencies
+    * activesupport (= 3.1.1)
+    * activemodel (= 3.1.1)
+    * rack-cache (~> 1.1)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.2)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.2)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.1)
+  activesupport (3.1.1)
+  actionpack (3.1.1)
+Requirements:
+  rack (~> 1.3.2) ruby
+  activesupport (= 3.1.1) ruby
+  rack-test (~> 0.6.1) ruby
+  actionmailer (= 3.1.1) ruby
+  railties (= 3.1.1) ruby
+  bundler (~> 1.0) ruby
+  activeresource (= 3.1.1) ruby
+  activemodel (= 3.1.1) ruby
+  activerecord (= 3.1.1) ruby
+  erubis (~> 2.7.0) ruby
+  rack-cache (~> 1.1) ruby
+  rack-mount (~> 0.8.2) ruby
+  sprockets (~> 2.0.2) ruby
+  builder (~> 3.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.3.2) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.1)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.1.0)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.1.0)
+    * actionpack (= 3.1.0)
+    * activerecord (= 3.1.0)
+    * activeresource (= 3.1.0)
+    * actionmailer (= 3.1.0)
+    * railties (= 3.1.0)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.0)
+Requirements:
+  activesupport (= 3.1.0) ruby
+  actionpack (= 3.1.0) ruby
+  activerecord (= 3.1.0) ruby
+  activeresource (= 3.1.0) ruby
+  actionmailer (= 3.1.0) ruby
+  railties (= 3.1.0) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.1.0) ruby
+  Activating: activesupport (3.1.0)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.1.0)
+    Dependencies
+    * multi_json (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.0)
+  activesupport (3.1.0)
+Requirements:
+  actionpack (= 3.1.0) ruby
+  activerecord (= 3.1.0) ruby
+  activeresource (= 3.1.0) ruby
+  bundler (~> 1.0) ruby
+  railties (= 3.1.0) ruby
+  actionmailer (= 3.1.0) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.1.0) ruby
+  Activating: actionpack (3.1.0)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.1.0)
+    Dependencies
+    * activesupport (= 3.1.0)
+    * activemodel (= 3.1.0)
+    * rack-cache (~> 1.0.3)
+    * builder (~> 3.0.0)
+    * i18n (~> 0.6)
+    * rack (~> 1.3.2)
+    * rack-test (~> 0.6.1)
+    * rack-mount (~> 0.8.2)
+    * sprockets (~> 2.0.0)
+    * erubis (~> 2.7.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.1.0)
+  activesupport (3.1.0)
+  actionpack (3.1.0)
+Requirements:
+  rack (~> 1.3.2) ruby
+  rack-test (~> 0.6.1) ruby
+  activesupport (= 3.1.0) ruby
+  erubis (~> 2.7.0) ruby
+  actionmailer (= 3.1.0) ruby
+  railties (= 3.1.0) ruby
+  bundler (~> 1.0) ruby
+  activemodel (= 3.1.0) ruby
+  activeresource (= 3.1.0) ruby
+  activerecord (= 3.1.0) ruby
+  rack-cache (~> 1.0.3) ruby
+  rack-mount (~> 0.8.2) ruby
+  builder (~> 3.0.0) ruby
+  sprockets (~> 2.0.0) ruby
+  i18n (~> 0.6) ruby
+  multi_json (~> 1.0) ruby
+Attempting:
+  rack (~> 1.3.2) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.1.0)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.20)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.20)
+    * actionpack (= 3.0.20)
+    * activerecord (= 3.0.20)
+    * activeresource (= 3.0.20)
+    * actionmailer (= 3.0.20)
+    * railties (= 3.0.20)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.20)
+Requirements:
+  activesupport (= 3.0.20) ruby
+  actionpack (= 3.0.20) ruby
+  activerecord (= 3.0.20) ruby
+  activeresource (= 3.0.20) ruby
+  actionmailer (= 3.0.20) ruby
+  railties (= 3.0.20) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.20) ruby
+  Activating: activesupport (3.0.20)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.20)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.20)
+  activesupport (3.0.20)
+Requirements:
+  actionpack (= 3.0.20) ruby
+  activerecord (= 3.0.20) ruby
+  activeresource (= 3.0.20) ruby
+  actionmailer (= 3.0.20) ruby
+  railties (= 3.0.20) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.20) ruby
+  Activating: actionpack (3.0.20)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.20)
+    Dependencies
+    * activesupport (= 3.0.20)
+    * activemodel (= 3.0.20)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.20)
+  activesupport (3.0.20)
+  actionpack (3.0.20)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.20) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.20) ruby
+  activemodel (= 3.0.20) ruby
+  railties (= 3.0.20) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.20) ruby
+  actionmailer (= 3.0.20) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.20)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.19)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.19)
+    * actionpack (= 3.0.19)
+    * activerecord (= 3.0.19)
+    * activeresource (= 3.0.19)
+    * actionmailer (= 3.0.19)
+    * railties (= 3.0.19)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.19)
+Requirements:
+  activesupport (= 3.0.19) ruby
+  actionpack (= 3.0.19) ruby
+  activerecord (= 3.0.19) ruby
+  activeresource (= 3.0.19) ruby
+  actionmailer (= 3.0.19) ruby
+  railties (= 3.0.19) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.19) ruby
+  Activating: activesupport (3.0.19)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.19)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.19)
+  activesupport (3.0.19)
+Requirements:
+  actionpack (= 3.0.19) ruby
+  activerecord (= 3.0.19) ruby
+  activeresource (= 3.0.19) ruby
+  actionmailer (= 3.0.19) ruby
+  railties (= 3.0.19) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.19) ruby
+  Activating: actionpack (3.0.19)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.19)
+    Dependencies
+    * activesupport (= 3.0.19)
+    * activemodel (= 3.0.19)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.19)
+  activesupport (3.0.19)
+  actionpack (3.0.19)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.19) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.19) ruby
+  activemodel (= 3.0.19) ruby
+  railties (= 3.0.19) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.19) ruby
+  actionmailer (= 3.0.19) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.19)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.18)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.18)
+    * actionpack (= 3.0.18)
+    * activerecord (= 3.0.18)
+    * activeresource (= 3.0.18)
+    * actionmailer (= 3.0.18)
+    * railties (= 3.0.18)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.18)
+Requirements:
+  activesupport (= 3.0.18) ruby
+  actionpack (= 3.0.18) ruby
+  activerecord (= 3.0.18) ruby
+  activeresource (= 3.0.18) ruby
+  actionmailer (= 3.0.18) ruby
+  railties (= 3.0.18) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.18) ruby
+  Activating: activesupport (3.0.18)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.18)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.18)
+  activesupport (3.0.18)
+Requirements:
+  actionpack (= 3.0.18) ruby
+  activerecord (= 3.0.18) ruby
+  activeresource (= 3.0.18) ruby
+  actionmailer (= 3.0.18) ruby
+  railties (= 3.0.18) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.18) ruby
+  Activating: actionpack (3.0.18)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.18)
+    Dependencies
+    * activesupport (= 3.0.18)
+    * activemodel (= 3.0.18)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.18)
+  activesupport (3.0.18)
+  actionpack (3.0.18)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.18) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.18) ruby
+  activemodel (= 3.0.18) ruby
+  railties (= 3.0.18) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.18) ruby
+  actionmailer (= 3.0.18) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.18)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.17)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.17)
+    * actionpack (= 3.0.17)
+    * activerecord (= 3.0.17)
+    * activeresource (= 3.0.17)
+    * actionmailer (= 3.0.17)
+    * railties (= 3.0.17)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.17)
+Requirements:
+  activesupport (= 3.0.17) ruby
+  actionpack (= 3.0.17) ruby
+  activerecord (= 3.0.17) ruby
+  activeresource (= 3.0.17) ruby
+  actionmailer (= 3.0.17) ruby
+  railties (= 3.0.17) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.17) ruby
+  Activating: activesupport (3.0.17)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.17)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.17)
+  activesupport (3.0.17)
+Requirements:
+  actionpack (= 3.0.17) ruby
+  activerecord (= 3.0.17) ruby
+  activeresource (= 3.0.17) ruby
+  actionmailer (= 3.0.17) ruby
+  railties (= 3.0.17) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.17) ruby
+  Activating: actionpack (3.0.17)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.17)
+    Dependencies
+    * activesupport (= 3.0.17)
+    * activemodel (= 3.0.17)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.17)
+  activesupport (3.0.17)
+  actionpack (3.0.17)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.17) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.17) ruby
+  activemodel (= 3.0.17) ruby
+  railties (= 3.0.17) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.17) ruby
+  actionmailer (= 3.0.17) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.17)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.16)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.16)
+    * actionpack (= 3.0.16)
+    * activerecord (= 3.0.16)
+    * activeresource (= 3.0.16)
+    * actionmailer (= 3.0.16)
+    * railties (= 3.0.16)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.16)
+Requirements:
+  activesupport (= 3.0.16) ruby
+  actionpack (= 3.0.16) ruby
+  activerecord (= 3.0.16) ruby
+  activeresource (= 3.0.16) ruby
+  actionmailer (= 3.0.16) ruby
+  railties (= 3.0.16) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.16) ruby
+  Activating: activesupport (3.0.16)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.16)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.16)
+  activesupport (3.0.16)
+Requirements:
+  actionpack (= 3.0.16) ruby
+  activerecord (= 3.0.16) ruby
+  activeresource (= 3.0.16) ruby
+  actionmailer (= 3.0.16) ruby
+  railties (= 3.0.16) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.16) ruby
+  Activating: actionpack (3.0.16)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.16)
+    Dependencies
+    * activesupport (= 3.0.16)
+    * activemodel (= 3.0.16)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.16)
+  activesupport (3.0.16)
+  actionpack (3.0.16)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.16) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.16) ruby
+  activemodel (= 3.0.16) ruby
+  railties (= 3.0.16) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.16) ruby
+  actionmailer (= 3.0.16) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.16)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.15)
+    * actionpack (= 3.0.15)
+    * activerecord (= 3.0.15)
+    * activeresource (= 3.0.15)
+    * actionmailer (= 3.0.15)
+    * railties (= 3.0.15)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.15)
+Requirements:
+  activesupport (= 3.0.15) ruby
+  actionpack (= 3.0.15) ruby
+  activerecord (= 3.0.15) ruby
+  activeresource (= 3.0.15) ruby
+  actionmailer (= 3.0.15) ruby
+  railties (= 3.0.15) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.15) ruby
+  Activating: activesupport (3.0.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.15)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.15)
+  activesupport (3.0.15)
+Requirements:
+  actionpack (= 3.0.15) ruby
+  activerecord (= 3.0.15) ruby
+  activeresource (= 3.0.15) ruby
+  actionmailer (= 3.0.15) ruby
+  railties (= 3.0.15) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.15) ruby
+  Activating: actionpack (3.0.15)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.15)
+    Dependencies
+    * activesupport (= 3.0.15)
+    * activemodel (= 3.0.15)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.15)
+  activesupport (3.0.15)
+  actionpack (3.0.15)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.15) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.15) ruby
+  activemodel (= 3.0.15) ruby
+  railties (= 3.0.15) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.15) ruby
+  actionmailer (= 3.0.15) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.15)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.14)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.14)
+    * actionpack (= 3.0.14)
+    * activerecord (= 3.0.14)
+    * activeresource (= 3.0.14)
+    * actionmailer (= 3.0.14)
+    * railties (= 3.0.14)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.14)
+Requirements:
+  activesupport (= 3.0.14) ruby
+  actionpack (= 3.0.14) ruby
+  activerecord (= 3.0.14) ruby
+  activeresource (= 3.0.14) ruby
+  actionmailer (= 3.0.14) ruby
+  railties (= 3.0.14) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.14) ruby
+  Activating: activesupport (3.0.14)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.14)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.14)
+  activesupport (3.0.14)
+Requirements:
+  actionpack (= 3.0.14) ruby
+  activerecord (= 3.0.14) ruby
+  activeresource (= 3.0.14) ruby
+  actionmailer (= 3.0.14) ruby
+  railties (= 3.0.14) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.14) ruby
+  Activating: actionpack (3.0.14)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.14)
+    Dependencies
+    * activesupport (= 3.0.14)
+    * activemodel (= 3.0.14)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.14)
+  activesupport (3.0.14)
+  actionpack (3.0.14)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.14) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.14) ruby
+  activemodel (= 3.0.14) ruby
+  railties (= 3.0.14) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.14) ruby
+  actionmailer (= 3.0.14) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.14)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.13)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.13)
+    * actionpack (= 3.0.13)
+    * activerecord (= 3.0.13)
+    * activeresource (= 3.0.13)
+    * actionmailer (= 3.0.13)
+    * railties (= 3.0.13)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.13)
+Requirements:
+  activesupport (= 3.0.13) ruby
+  actionpack (= 3.0.13) ruby
+  activerecord (= 3.0.13) ruby
+  activeresource (= 3.0.13) ruby
+  actionmailer (= 3.0.13) ruby
+  railties (= 3.0.13) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.13) ruby
+  Activating: activesupport (3.0.13)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.13)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.13)
+  activesupport (3.0.13)
+Requirements:
+  actionpack (= 3.0.13) ruby
+  activerecord (= 3.0.13) ruby
+  activeresource (= 3.0.13) ruby
+  actionmailer (= 3.0.13) ruby
+  railties (= 3.0.13) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.13) ruby
+  Activating: actionpack (3.0.13)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.13)
+    Dependencies
+    * activesupport (= 3.0.13)
+    * activemodel (= 3.0.13)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.13)
+  activesupport (3.0.13)
+  actionpack (3.0.13)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.13) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.13) ruby
+  activemodel (= 3.0.13) ruby
+  railties (= 3.0.13) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.13) ruby
+  actionmailer (= 3.0.13) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.13)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.12)
+    * actionpack (= 3.0.12)
+    * activerecord (= 3.0.12)
+    * activeresource (= 3.0.12)
+    * actionmailer (= 3.0.12)
+    * railties (= 3.0.12)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.12)
+Requirements:
+  activesupport (= 3.0.12) ruby
+  actionpack (= 3.0.12) ruby
+  activerecord (= 3.0.12) ruby
+  activeresource (= 3.0.12) ruby
+  actionmailer (= 3.0.12) ruby
+  railties (= 3.0.12) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.12) ruby
+  Activating: activesupport (3.0.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.12)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.12)
+  activesupport (3.0.12)
+Requirements:
+  actionpack (= 3.0.12) ruby
+  activerecord (= 3.0.12) ruby
+  activeresource (= 3.0.12) ruby
+  actionmailer (= 3.0.12) ruby
+  railties (= 3.0.12) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.12) ruby
+  Activating: actionpack (3.0.12)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.12)
+    Dependencies
+    * activesupport (= 3.0.12)
+    * activemodel (= 3.0.12)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.5)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.12)
+  activesupport (3.0.12)
+  actionpack (3.0.12)
+Requirements:
+  rack (~> 1.2.5) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.12) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.12) ruby
+  activemodel (= 3.0.12) ruby
+  railties (= 3.0.12) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.12) ruby
+  actionmailer (= 3.0.12) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.5) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.12)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.11)
+    * actionpack (= 3.0.11)
+    * activerecord (= 3.0.11)
+    * activeresource (= 3.0.11)
+    * actionmailer (= 3.0.11)
+    * railties (= 3.0.11)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.11)
+Requirements:
+  activesupport (= 3.0.11) ruby
+  actionpack (= 3.0.11) ruby
+  activerecord (= 3.0.11) ruby
+  activeresource (= 3.0.11) ruby
+  actionmailer (= 3.0.11) ruby
+  railties (= 3.0.11) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.11) ruby
+  Activating: activesupport (3.0.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.11)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.11)
+  activesupport (3.0.11)
+Requirements:
+  actionpack (= 3.0.11) ruby
+  activerecord (= 3.0.11) ruby
+  activeresource (= 3.0.11) ruby
+  actionmailer (= 3.0.11) ruby
+  railties (= 3.0.11) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.11) ruby
+  Activating: actionpack (3.0.11)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.11)
+    Dependencies
+    * activesupport (= 3.0.11)
+    * activemodel (= 3.0.11)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.11)
+  activesupport (3.0.11)
+  actionpack (3.0.11)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.11) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.11) ruby
+  activemodel (= 3.0.11) ruby
+  railties (= 3.0.11) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.11) ruby
+  actionmailer (= 3.0.11) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.11)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.10)
+    * actionpack (= 3.0.10)
+    * activerecord (= 3.0.10)
+    * activeresource (= 3.0.10)
+    * actionmailer (= 3.0.10)
+    * railties (= 3.0.10)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.10)
+Requirements:
+  activesupport (= 3.0.10) ruby
+  actionpack (= 3.0.10) ruby
+  activerecord (= 3.0.10) ruby
+  activeresource (= 3.0.10) ruby
+  actionmailer (= 3.0.10) ruby
+  railties (= 3.0.10) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.10) ruby
+  Activating: activesupport (3.0.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.10)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.10)
+  activesupport (3.0.10)
+Requirements:
+  actionpack (= 3.0.10) ruby
+  activerecord (= 3.0.10) ruby
+  activeresource (= 3.0.10) ruby
+  actionmailer (= 3.0.10) ruby
+  railties (= 3.0.10) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.10) ruby
+  Activating: actionpack (3.0.10)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.10)
+    Dependencies
+    * activesupport (= 3.0.10)
+    * activemodel (= 3.0.10)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.10)
+  activesupport (3.0.10)
+  actionpack (3.0.10)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.10) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.10) ruby
+  activemodel (= 3.0.10) ruby
+  railties (= 3.0.10) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.10) ruby
+  actionmailer (= 3.0.10) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.10)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.9)
+    * actionpack (= 3.0.9)
+    * activerecord (= 3.0.9)
+    * activeresource (= 3.0.9)
+    * actionmailer (= 3.0.9)
+    * railties (= 3.0.9)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.9)
+Requirements:
+  activesupport (= 3.0.9) ruby
+  actionpack (= 3.0.9) ruby
+  activerecord (= 3.0.9) ruby
+  activeresource (= 3.0.9) ruby
+  actionmailer (= 3.0.9) ruby
+  railties (= 3.0.9) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.9) ruby
+  Activating: activesupport (3.0.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.9)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.9)
+  activesupport (3.0.9)
+Requirements:
+  actionpack (= 3.0.9) ruby
+  activerecord (= 3.0.9) ruby
+  activeresource (= 3.0.9) ruby
+  actionmailer (= 3.0.9) ruby
+  railties (= 3.0.9) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.9) ruby
+  Activating: actionpack (3.0.9)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.9)
+    Dependencies
+    * activesupport (= 3.0.9)
+    * activemodel (= 3.0.9)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.9)
+  activesupport (3.0.9)
+  actionpack (3.0.9)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.9) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.9) ruby
+  activemodel (= 3.0.9) ruby
+  railties (= 3.0.9) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.9) ruby
+  actionmailer (= 3.0.9) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.9)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.8)
+    * actionpack (= 3.0.8)
+    * activerecord (= 3.0.8)
+    * activeresource (= 3.0.8)
+    * actionmailer (= 3.0.8)
+    * railties (= 3.0.8)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.8)
+Requirements:
+  activesupport (= 3.0.8) ruby
+  actionpack (= 3.0.8) ruby
+  activerecord (= 3.0.8) ruby
+  activeresource (= 3.0.8) ruby
+  actionmailer (= 3.0.8) ruby
+  railties (= 3.0.8) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.8) ruby
+  Activating: activesupport (3.0.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.8)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.8)
+  activesupport (3.0.8)
+Requirements:
+  actionpack (= 3.0.8) ruby
+  activerecord (= 3.0.8) ruby
+  activeresource (= 3.0.8) ruby
+  actionmailer (= 3.0.8) ruby
+  railties (= 3.0.8) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.8) ruby
+  Activating: actionpack (3.0.8)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.8)
+    Dependencies
+    * activesupport (= 3.0.8)
+    * activemodel (= 3.0.8)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.8)
+  activesupport (3.0.8)
+  actionpack (3.0.8)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.8) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.8) ruby
+  activemodel (= 3.0.8) ruby
+  railties (= 3.0.8) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.8) ruby
+  actionmailer (= 3.0.8) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.8)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.7)
+    * actionpack (= 3.0.7)
+    * activerecord (= 3.0.7)
+    * activeresource (= 3.0.7)
+    * actionmailer (= 3.0.7)
+    * railties (= 3.0.7)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.7)
+Requirements:
+  activesupport (= 3.0.7) ruby
+  actionpack (= 3.0.7) ruby
+  activerecord (= 3.0.7) ruby
+  activeresource (= 3.0.7) ruby
+  actionmailer (= 3.0.7) ruby
+  railties (= 3.0.7) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.7) ruby
+  Activating: activesupport (3.0.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.7)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.7)
+  activesupport (3.0.7)
+Requirements:
+  actionpack (= 3.0.7) ruby
+  activerecord (= 3.0.7) ruby
+  activeresource (= 3.0.7) ruby
+  actionmailer (= 3.0.7) ruby
+  railties (= 3.0.7) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.7) ruby
+  Activating: actionpack (3.0.7)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.7)
+    Dependencies
+    * activesupport (= 3.0.7)
+    * activemodel (= 3.0.7)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.7)
+  activesupport (3.0.7)
+  actionpack (3.0.7)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.7) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.7) ruby
+  activemodel (= 3.0.7) ruby
+  railties (= 3.0.7) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.7) ruby
+  actionmailer (= 3.0.7) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.7)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.6)
+    * actionpack (= 3.0.6)
+    * activerecord (= 3.0.6)
+    * activeresource (= 3.0.6)
+    * actionmailer (= 3.0.6)
+    * railties (= 3.0.6)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.6)
+Requirements:
+  activesupport (= 3.0.6) ruby
+  actionpack (= 3.0.6) ruby
+  activerecord (= 3.0.6) ruby
+  activeresource (= 3.0.6) ruby
+  actionmailer (= 3.0.6) ruby
+  railties (= 3.0.6) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.6) ruby
+  Activating: activesupport (3.0.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.6)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.6)
+  activesupport (3.0.6)
+Requirements:
+  actionpack (= 3.0.6) ruby
+  activerecord (= 3.0.6) ruby
+  activeresource (= 3.0.6) ruby
+  actionmailer (= 3.0.6) ruby
+  railties (= 3.0.6) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.6) ruby
+  Activating: actionpack (3.0.6)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.6)
+    Dependencies
+    * activesupport (= 3.0.6)
+    * activemodel (= 3.0.6)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.5.0)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.14)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.6)
+  activesupport (3.0.6)
+  actionpack (3.0.6)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.6) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.6) ruby
+  activemodel (= 3.0.6) ruby
+  railties (= 3.0.6) ruby
+  erubis (~> 2.6.6) ruby
+  rack-mount (~> 0.6.14) ruby
+  activeresource (= 3.0.6) ruby
+  actionmailer (= 3.0.6) ruby
+  i18n (~> 0.5.0) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.6)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.5)
+    * actionpack (= 3.0.5)
+    * activerecord (= 3.0.5)
+    * activeresource (= 3.0.5)
+    * actionmailer (= 3.0.5)
+    * railties (= 3.0.5)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.5)
+Requirements:
+  activesupport (= 3.0.5) ruby
+  actionpack (= 3.0.5) ruby
+  activerecord (= 3.0.5) ruby
+  activeresource (= 3.0.5) ruby
+  actionmailer (= 3.0.5) ruby
+  railties (= 3.0.5) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.5) ruby
+  Activating: activesupport (3.0.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.5)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.5)
+  activesupport (3.0.5)
+Requirements:
+  actionpack (= 3.0.5) ruby
+  activerecord (= 3.0.5) ruby
+  activeresource (= 3.0.5) ruby
+  actionmailer (= 3.0.5) ruby
+  railties (= 3.0.5) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.5) ruby
+  Activating: actionpack (3.0.5)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.5)
+    Dependencies
+    * activesupport (= 3.0.5)
+    * activemodel (= 3.0.5)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.4)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.13)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.5)
+  activesupport (3.0.5)
+  actionpack (3.0.5)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.5) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.5) ruby
+  activemodel (= 3.0.5) ruby
+  railties (= 3.0.5) ruby
+  erubis (~> 2.6.6) ruby
+  activeresource (= 3.0.5) ruby
+  actionmailer (= 3.0.5) ruby
+  rack-mount (~> 0.6.13) ruby
+  i18n (~> 0.4) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.5)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.4)
+    * actionpack (= 3.0.4)
+    * activerecord (= 3.0.4)
+    * activeresource (= 3.0.4)
+    * actionmailer (= 3.0.4)
+    * railties (= 3.0.4)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.4)
+Requirements:
+  activesupport (= 3.0.4) ruby
+  actionpack (= 3.0.4) ruby
+  activerecord (= 3.0.4) ruby
+  activeresource (= 3.0.4) ruby
+  actionmailer (= 3.0.4) ruby
+  railties (= 3.0.4) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.4) ruby
+  Activating: activesupport (3.0.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.4)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.4)
+  activesupport (3.0.4)
+Requirements:
+  actionpack (= 3.0.4) ruby
+  activerecord (= 3.0.4) ruby
+  activeresource (= 3.0.4) ruby
+  actionmailer (= 3.0.4) ruby
+  railties (= 3.0.4) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.4) ruby
+  Activating: actionpack (3.0.4)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.4)
+    Dependencies
+    * activesupport (= 3.0.4)
+    * activemodel (= 3.0.4)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.4)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.7)
+    * rack-mount (~> 0.6.13)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.4)
+  activesupport (3.0.4)
+  actionpack (3.0.4)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.7) ruby
+  activesupport (= 3.0.4) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.4) ruby
+  activemodel (= 3.0.4) ruby
+  railties (= 3.0.4) ruby
+  erubis (~> 2.6.6) ruby
+  activeresource (= 3.0.4) ruby
+  actionmailer (= 3.0.4) ruby
+  rack-mount (~> 0.6.13) ruby
+  i18n (~> 0.4) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.4)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.3)
+    * actionpack (= 3.0.3)
+    * activerecord (= 3.0.3)
+    * activeresource (= 3.0.3)
+    * actionmailer (= 3.0.3)
+    * railties (= 3.0.3)
+    * bundler (~> 1.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.3)
+Requirements:
+  activesupport (= 3.0.3) ruby
+  actionpack (= 3.0.3) ruby
+  activerecord (= 3.0.3) ruby
+  activeresource (= 3.0.3) ruby
+  actionmailer (= 3.0.3) ruby
+  railties (= 3.0.3) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  activesupport (= 3.0.3) ruby
+  Activating: activesupport (3.0.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * activesupport (= 3.0.3)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.3)
+  activesupport (3.0.3)
+Requirements:
+  actionpack (= 3.0.3) ruby
+  activerecord (= 3.0.3) ruby
+  activeresource (= 3.0.3) ruby
+  actionmailer (= 3.0.3) ruby
+  railties (= 3.0.3) ruby
+  bundler (~> 1.0) ruby
+Attempting:
+  actionpack (= 3.0.3) ruby
+  Activating: actionpack (3.0.3)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    * actionpack (= 3.0.3)
+    Dependencies
+    * activesupport (= 3.0.3)
+    * activemodel (= 3.0.3)
+    * builder (~> 2.1.2)
+    * i18n (~> 0.4)
+    * rack (~> 1.2.1)
+    * rack-test (~> 0.5.6)
+    * rack-mount (~> 0.6.13)
+    * tzinfo (~> 0.3.23)
+    * erubis (~> 2.6.6)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.3)
+  activesupport (3.0.3)
+  actionpack (3.0.3)
+Requirements:
+  rack (~> 1.2.1) ruby
+  rack-test (~> 0.5.6) ruby
+  activesupport (= 3.0.3) ruby
+  builder (~> 2.1.2) ruby
+  bundler (~> 1.0) ruby
+  activerecord (= 3.0.3) ruby
+  activemodel (= 3.0.3) ruby
+  railties (= 3.0.3) ruby
+  erubis (~> 2.6.6) ruby
+  activeresource (= 3.0.3) ruby
+  actionmailer (= 3.0.3) ruby
+  rack-mount (~> 0.6.13) ruby
+  i18n (~> 0.4) ruby
+  tzinfo (~> 0.3.23) ruby
+Attempting:
+  rack (~> 1.2.1) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+      * actionpack (= 3.0.3)
+    -> Jumping to: actionpack
+    -> Jumping to: rails
+  Activating: rails (3.0.2)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.2)
+    * actionpack (= 3.0.2)
+    * activerecord (= 3.0.2)
+    * activeresource (= 3.0.2)
+    * actionmailer (= 3.0.2)
+    * railties (= 3.0.2)
+    * bundler (~> 1.0.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.2)
+Requirements:
+  bundler (~> 1.0.0) ruby
+  activeresource (= 3.0.2) ruby
+  activerecord (= 3.0.2) ruby
+  actionpack (= 3.0.2) ruby
+  actionmailer (= 3.0.2) ruby
+  railties (= 3.0.2) ruby
+  activesupport (= 3.0.2) ruby
+Attempting:
+  bundler (~> 1.0.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+    -> Jumping to: rails
+  Activating: rails (3.0.1)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.1)
+    * actionpack (= 3.0.1)
+    * activerecord (= 3.0.1)
+    * activeresource (= 3.0.1)
+    * actionmailer (= 3.0.1)
+    * railties (= 3.0.1)
+    * bundler (~> 1.0.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.1)
+Requirements:
+  bundler (~> 1.0.0) ruby
+  activeresource (= 3.0.1) ruby
+  activerecord (= 3.0.1) ruby
+  actionpack (= 3.0.1) ruby
+  actionmailer (= 3.0.1) ruby
+  railties (= 3.0.1) ruby
+  activesupport (= 3.0.1) ruby
+Attempting:
+  bundler (~> 1.0.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+    -> Jumping to: rails
+  Activating: rails (3.0.0)
+    * bundler-example (>= 0)
+    * rails (~> 3.0)
+    Dependencies
+    * activesupport (= 3.0.0)
+    * actionpack (= 3.0.0)
+    * activerecord (= 3.0.0)
+    * activeresource (= 3.0.0)
+    * actionmailer (= 3.0.0)
+    * railties (= 3.0.0)
+    * bundler (~> 1.0.0)
+==== Iterating ====
+
+Activated:
+  bundler-example (1.0.0)
+  capybara (2.2.1)
+  xpath (2.0.0)
+  rack-test (0.6.2)
+  mime-types (2.0)
+  nokogiri (1.6.1)
+  mini_portile (0.5.2)
+  rack (1.5.2)
+  rails (3.0.0)
+Requirements:
+  bundler (~> 1.0.0) ruby
+  activeresource (= 3.0.0) ruby
+  activerecord (= 3.0.0) ruby
+  actionpack (= 3.0.0) ruby
+  actionmailer (= 3.0.0) ruby
+  railties (= 3.0.0) ruby
+  activesupport (= 3.0.0) ruby
+Attempting:
+  bundler (~> 1.0.0) ruby
+    * [FAIL] Already activated
+      * bundler-example (>= 0)
+      * rails (~> 3.0)
+    -> Jumping to: rails
+    -> Jumping to: bundler-example
